@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:material_3_for_flutter_sample/top_page.dart';
 
 class Material2App extends StatelessWidget {
   const Material2App({super.key});
@@ -10,7 +11,7 @@ class Material2App extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Container(),
+      home: const TopPage(),
     );
   }
 }
