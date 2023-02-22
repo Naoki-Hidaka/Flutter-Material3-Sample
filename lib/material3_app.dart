@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:material_3_for_flutter_sample/top_page.dart';
+import 'package:material_3_for_flutter_sample/pages/top_page.dart';
 
 class Material3App extends StatelessWidget {
   const Material3App({super.key});
@@ -9,6 +9,7 @@ class Material3App extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
+        useMaterial3: true,
         primarySwatch: Colors.blue,
       ),
       home: const TopPage(),
