@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:material_3_for_flutter_sample/pages/top_page.dart';
+import 'package:material_3_for_flutter_sample/ui/pages/top_page.dart';
 
 class Material3App extends StatelessWidget {
   const Material3App({super.key});

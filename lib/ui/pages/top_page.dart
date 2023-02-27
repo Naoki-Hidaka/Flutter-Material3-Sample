@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:material_3_for_flutter_sample/pages/account_page.dart';
-import 'package:material_3_for_flutter_sample/pages/home_page.dart';
+import 'package:material_3_for_flutter_sample/ui/pages/account_page.dart';
+import 'package:material_3_for_flutter_sample/ui/pages/home_page.dart';
 
 class TopPage extends StatefulWidget {
   const TopPage({super.key});
