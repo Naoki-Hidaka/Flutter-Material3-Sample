@@ -13,9 +13,16 @@ class TopPage extends StatefulWidget {
 
 class _TopPageState extends State<TopPage> {
   static const _pageItems = [
-    _TopPageItem(page: HomePage(), title: "Home", icon: Icons.home),
     _TopPageItem(
-        page: AccountPage(), title: "Account", icon: Icons.account_circle)
+      page: HomePage(),
+      title: "Home",
+      icon: Icons.home,
+    ),
+    _TopPageItem(
+      page: AccountPage(),
+      title: "Account",
+      icon: Icons.account_circle,
+    )
   ];
 
   int _currentIndex = 0;
@@ -24,6 +31,7 @@ class _TopPageState extends State<TopPage> {
 
   @override
   Widget build(BuildContext context) {
+    print('top page');
     return Scaffold(
       appBar: AppBar(
         title: const Text("Material Design Sample"),
